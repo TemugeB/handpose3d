@@ -13,6 +13,7 @@ pip install mediapipe
 
 **Requirements**  
 ```
+Mediapipe
 Python3.8
 Opencv
 matplotlib
