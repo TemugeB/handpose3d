@@ -15,10 +15,7 @@ def run_mp(input_stream1, input_stream2, P0, P1):
     cap1 = cv.VideoCapture(input_stream2)
     caps = [cap0, cap1]
 
-    #set camera resolution if using webcam to 1280x720. Any bigger will cause some lag for hand detection
-    for cap in caps:
-        cap.set(3, frame_shape[1])
-        cap.set(4, frame_shape[0])
+loop
 
     #create hand keypoints detector object.
     hands0 = mp_hands.Hands(min_detection_confidence=0.5, max_num_hands =1, min_tracking_confidence=0.5)
