@@ -4,9 +4,7 @@ import numpy as np
 import sys
 from utils import DLT, get_projection_matrix, write_keypoints_to_disk
 
-# new line
-
-mp_drawing_2 = mp.solutions.drawing_utils
+123
 
 
 def run_mp(input_stream1, input_stream2, P0, P1):
